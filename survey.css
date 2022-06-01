@@ -1,0 +1,193 @@
+.background {
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(32, 31, 31);
+    height: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 200;
+}
+
+div {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.site-info {
+    display: flex;
+    align-items: center;
+}
+
+.survey-form {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 4px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.site-name {
+    color: gray;
+    margin-right: 6px;
+    text-decoration: none;
+
+}
+
+.follow-button {
+    font-size: 12px;
+    background-color: rgb(13, 204, 13);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.right-section {
+    align-items: center;
+}
+
+.right-section button {
+    padding: 10px 15px 10px 15px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(150, 150, 150);
+    color: white;
+    cursor: pointer;
+}
+
+.right-section button:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+button.sign-up-button {
+    background-color: rgb(13, 204, 13);
+    color: black;
+}
+
+button.sign-up-button:hover,
+.follow-button:hover {
+    color: white;
+    background-color: rgb(12, 171, 12);
+}
+
+.survey-container {
+    opacity: 0.9;
+    position: relative;
+    width: 700px;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 150;
+}
+
+.head-text {
+    height: 100px;
+    width: inherit;
+    position: absolute;
+    text-align: center;
+}
+
+.line-1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.line-2 {
+    font-size: 18px;
+    color: lightgray;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.survey {
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    position: absolute;
+    top: 100px;
+    z-index: 150;
+    align-items: center;
+    padding-top: 40px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+input[type="textbox"],
+input[type="number"],
+input[type=submit],
+#role,
+#favorite-feature,
+#comment,
+#submit {
+    padding: 10px;
+    font-size: 16px;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+.optional,
+.apply {
+    font-size: 14px;
+}
+
+label {
+    font-size: 18px;
+    color: white;
+}
+
+#role,
+#favorite-feature,
+#submit {
+    width: 620px;
+}
+
+.recommendation,
+.feedback {
+    width: 620px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+
+#definitely,
+#maybe,
+#not-sure,
+[type=checkbox] {
+    margin-top: 10px;
+    transform: scale(1.5);
+}
+
+#comment {
+    height: 100px;
+}
+
+#submit {
+    background-color: rgb(47, 169, 47);
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
